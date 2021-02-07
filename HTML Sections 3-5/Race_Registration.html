@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Race Registeration</title>
+</head>
+
+<body>
+  <h1>Race Registration!</h1>
+  <form action="/dummy">
+
+    <div>
+      <label for="first">First Name</label>
+      <input type="text" id="first" name="firstName" required>
+      <label for="last">Last Name</label>
+      <input type="text" id="last" name="lastName" required>
+    </div>
+
+    <div>
+      <p>Select a Race:</p>
+      <div>
+        <input type="radio" id="funrun" name="length" value="funrun">
+        <label for="funrun">Fun Run 5k</label>
+      </div>
+
+      <div>
+        <input type="radio" id="half" name="length" value="half">
+        <label for="half">Half Marathon</label>
+      </div>
+
+      <div>
+        <input type="radio" id="full" name="length" value="full">
+        <label for="full">Full Marathon</label>
+      </div>
+    </div>
+
+    <div>
+      <label for="mail">Email</label>
+      <input type="email" id="mail" name="email" required>
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password" required>
+    </div>
+    <div>
+      <label for="age">Select Age Group</label>
+      <select name="age" id="age">
+        <option value="-18">under 18</option>
+        <option value="young">18-30</option>
+        <option value="old">30-50</option>
+        <option value="vold">50+</option>
+      </select>
+    </div>
+    <button>Register!</button>
+  </form>
+</body>
+
+</html>
+
+<!--The URL we have once submitting the form: file:///C:/dummy?firstName=d&lastName=d&length=funrun&email=dd%40d&password=sada&age=-18-->
