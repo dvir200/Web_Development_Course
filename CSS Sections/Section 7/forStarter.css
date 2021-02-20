@@ -32,6 +32,8 @@ span {
 
 .post a {
     color: #1d3557;
+    text-decoration: none;
+    font-weight: 700;
 }
 
 footer a {
@@ -49,4 +51,33 @@ footer > a {
 
 input[type="password"]{
     color: greenyellow;
+}
+
+.post button:hover{
+    background-color: #e63946;
+    color: #f1faee;
+}
+
+.post a:hover{
+    text-decoration: underline;
+}
+
+.post button:active{
+    background-color: #02c39a;
+}
+
+.post:nth-of-type(2n){
+    background-color: #dfe8dc;
+}
+
+h2::first-letter{
+    font-size: 50px;
+}
+
+p::first-line{
+    color: purple;
+}
+
+p::selection{
+    background-color: #fcbf49;
 }
