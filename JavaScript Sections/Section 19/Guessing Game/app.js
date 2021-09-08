@@ -2,8 +2,8 @@ let maximum = parseInt(prompt("Enter your maximum number: "));
 
 let tries = 1;
 
-while (!maximum){
-  maximum = parseInt(prompt("Invalid Number. Enter a new one: "));
+while ((!maximum) || (maximum <0)){
+  maximum = parseInt(prompt("Invalid number or typing. Enter a new one: "));
 }
 
 const targetNum = Math.floor(Math.random() * maximum) +1;
