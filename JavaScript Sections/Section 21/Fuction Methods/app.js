@@ -17,3 +17,13 @@ const cat = {
     console.log(`${this.name} says meoww`);
   }
 }
+
+/* const hen = {
+  name : 'Helen',
+  eggCount : 0,
+  layAnEgg (){
+    this.eggCount = this.eggCount +1;
+      this.eggCount++;
+      return console.log("EGG");
+  }
+} */
